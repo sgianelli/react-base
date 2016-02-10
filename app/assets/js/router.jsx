@@ -2,10 +2,10 @@ import React from 'react';
 
 import { IndexRoute, Link, Route, Navigation } from 'react-router';
 
-/* Define your application Router
+import App from './components/app';
+
 export default (
-    <Route name="app" path="/" component={}>
-        <IndexRoute component={} />
+    <Route name="app" path="/" component={App}>
+
     </Route>
 );
-*/
